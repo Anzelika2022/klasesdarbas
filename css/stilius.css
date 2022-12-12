@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto Light", SansSerif, "DejaVu Sans";
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.foto {
+           width: 400px;
+           display: flex;
+           justify-content: left;
+           align-items: center;
+       }
+
+main > img {
+    width: 400px;
+}
+
+td > img {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-primary-color);
+}
+ img {
+     border: 1px solid #ddd;
+     border-radius: 60px;
+     padding: 5px;
+     width: 150px;
+ }
+
+/* Meniu stilius */
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    float:left;
+    list-style-type:none;
+    margin:5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-secondary-color);
+}
+
+nav li > a {
+    color: inherit;
+}
+
+nav li:hover {
+    background-color: var(--main-secondary-text-color);
+    color: var(--main-primary-text-color);
+    transform: scale(1.2);
+}
+
+nav li:last-of-type {
+    border-right: none;
+}
+
+
+/* Meniu stilius pabaiga */
+
+footer {
+    background-color: cadetblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body aside {
+    display: grid;
+    align-content: space-evenly;
+    grid-gap: 20px;
+}
+.rek
+body main {
+    padding-left: 10px;
+}

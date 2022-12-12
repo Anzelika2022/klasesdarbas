@@ -1,0 +1,51 @@
+html
+
+
+body {
+    background-color:cadetblue;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        'h h h '
+        't t a'
+        'f f f'
+;
+    grid-gap: 10px;
+    /*grid-template-rows: 50px auto 100px;*/
+    /*grid-template-columns: auto auto 300px;*/
+}
+body > .reklama {
+    float: left;
+    height: 100%;
+    width: 200px;
+}
+body  > header {
+    grid-area: h;
+}
+body  > footer {
+    grid-area: f;
+}
+body  > aside {
+    grid-area: a;
+}
+body  > main {
+    grid-area: t;
+}
+
+
+
+header {
+    display: grid;
+    grid-template-areas:
+            'l s s'
+            'f n n';
+}
+header .logo {
+    grid-area: l;
+}
+header .slogan {
+    grid-area: s;
+}
+header nav {
+    grid-area: n;
+}
